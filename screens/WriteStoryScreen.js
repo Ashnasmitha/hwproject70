@@ -24,8 +24,8 @@ export default class WriteStoryScreen extends React.Component{
                 multiline={true}
                 />
 
-                <TouchableOpacity styles={style.button}>
-                    <Text styles={style.text}>SUBMIT</Text>
+                <TouchableOpacity style={styles.button}>
+                    <Text style={styles.text}>SUBMIT</Text>
                 </TouchableOpacity>
             </View>
         )
